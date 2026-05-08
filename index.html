@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>やまとの智恵 情報推命学 鑑定士 | Tomoé Seki — Energy Reader, Sevenoaks UK</title>
+<title>Tomoé Seki — Personal Energy Profiling | Innate Talent & Life Purpose, Sevenoaks UK</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Noto+Serif+JP:wght@300;400;500&family=Lato:wght@300;400&display=swap" rel="stylesheet">
 <style>
@@ -27,12 +27,14 @@ html{scroll-behavior:smooth;}
 body{font-family:"Noto Serif JP","Cormorant Garamond",Georgia,serif;background:var(--ivory);color:var(--ink);overflow-x:hidden;font-size:16px;}
 
 /* NAV */
-nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,253,249,0.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--sand);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:64px;}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,253,249,0.97);backdrop-filter:blur(12px);border-bottom:1.5px solid var(--sage);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:68px;box-shadow:0 2px 12px rgba(90,125,110,0.08);}
 .nav-logo{font-family:"Cormorant Garamond",serif;font-size:1.3rem;font-weight:400;letter-spacing:0.04em;color:var(--ink);text-decoration:none;line-height:1.3;}
 .nav-logo .en{font-style:italic;color:var(--forest);font-size:1.1rem;}
-.nav-links{display:flex;gap:0.1rem;list-style:none;}
-.nav-links a{text-decoration:none;font-family:"Lato",sans-serif;font-size:0.82rem;font-weight:300;letter-spacing:0.08em;text-transform:uppercase;color:var(--soft);padding:0.4rem 0.65rem;border-radius:2rem;transition:all 0.25s;}
-.nav-links a:hover{background:var(--sky);color:var(--ink);}
+.nav-links{display:flex;gap:0.25rem;list-style:none;}
+.nav-links a{text-decoration:none;font-family:"Lato",sans-serif;font-size:0.88rem;font-weight:400;letter-spacing:0.06em;text-transform:uppercase;color:var(--ink);padding:0.5rem 0.9rem;border-radius:2rem;transition:all 0.25s;border:1.5px solid transparent;}
+.nav-links a:hover{background:var(--sage);color:var(--ink);border-color:var(--sage);}
+.nav-links li.nav-cta a{background:var(--forest);color:white;border-color:var(--forest);font-weight:400;}
+.nav-links li.nav-cta a:hover{background:var(--ink);border-color:var(--ink);}
 .nav-toggle{display:none;background:none;border:none;cursor:pointer;flex-direction:column;gap:5px;}
 .nav-toggle span{display:block;width:22px;height:1.5px;background:var(--ink);}
 
@@ -54,7 +56,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,253,249,
 .btn-secondary{display:inline-flex;align-items:center;gap:0.5rem;border:1.5px solid var(--forest);color:var(--forest);text-decoration:none;font-family:"Lato",sans-serif;font-size:0.82rem;font-weight:400;letter-spacing:0.12em;text-transform:uppercase;padding:0.9rem 1.8rem;border-radius:2rem;transition:all 0.3s;}
 .btn-secondary:hover{background:var(--sage);transform:translateY(-2px);}
 .hero-right{background:var(--cream);display:flex;align-items:center;justify-content:center;padding:120px 6% 80px 10%;position:relative;}
-.hero-photo-wrap{position:relative;width:100%;max-width:270px;display:flex;flex-direction:column;align-items:flex-end;}
+.hero-photo-wrap{position:relative;width:100%;max-width:200px;display:flex;flex-direction:column;align-items:flex-end;}
 .hero-photo-frame{width:100%;aspect-ratio:3/4;border-radius:2rem 2rem 6rem 2rem;overflow:hidden;box-shadow:0 24px 64px rgba(58,53,48,0.16);position:relative;}
 .hero-photo-frame img{width:100%;height:100%;object-fit:cover;object-position:top center;}
 .hero-card-float{position:relative;margin-top:-80px;margin-right:0.5rem;z-index:10;max-width:330px;width:90%;background:white;border-radius:1.25rem;padding:1.75rem;box-shadow:0 16px 48px rgba(58,53,48,0.12);}
@@ -79,7 +81,7 @@ section{padding:100px 0;}
 #about{background:linear-gradient(170deg,var(--cream) 0%,var(--sky) 50%,var(--sage) 100%);}
 .about-grid{display:grid;grid-template-columns:1fr 1.7fr;gap:5%;align-items:start;}
 .about-aside{position:sticky;top:90px;}
-.profile-visual{width:72%;aspect-ratio:3/4;border-radius:1.5rem 1.5rem 6rem 1.5rem;overflow:hidden;margin-bottom:1.5rem;box-shadow:0 16px 40px rgba(107,143,126,0.18);}
+.profile-visual{width:55%;aspect-ratio:3/4;border-radius:1.5rem 1.5rem 6rem 1.5rem;overflow:hidden;margin-bottom:1.5rem;box-shadow:0 16px 40px rgba(107,143,126,0.18);}
 .profile-visual img{width:100%;height:100%;object-fit:cover;object-position:top center;}
 .profile-info-card{background:white;border-radius:1rem;padding:1.25rem 1.5rem;box-shadow:0 4px 20px rgba(58,53,48,0.07);}
 .profile-info-row{display:flex;justify-content:space-between;align-items:baseline;padding:0.6rem 0;border-bottom:1px solid var(--sand);}
@@ -225,7 +227,16 @@ footer{background:var(--ink);color:rgba(255,255,255,0.7);padding:3rem 5%;text-al
 .footer-contact a:hover{color:white;}
 .footer-copy{font-family:"Lato",sans-serif;font-size:0.8rem;color:rgba(255,255,255,0.3);}
 
-/* ANIMATIONS */
+/* FLOATING WHATSAPP */
+.whatsapp-float{position:fixed;bottom:1.5rem;right:1.5rem;z-index:200;background:#25D366;color:white;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.5rem;box-shadow:0 4px 20px rgba(37,211,102,0.4);text-decoration:none;transition:transform 0.3s,box-shadow 0.3s;}
+.whatsapp-float:hover{transform:scale(1.1);box-shadow:0 6px 28px rgba(37,211,102,0.55);}
+.whatsapp-float-label{position:absolute;right:64px;background:var(--ink);color:white;font-family:"Lato",sans-serif;font-size:0.78rem;letter-spacing:0.06em;white-space:nowrap;padding:0.4rem 0.8rem;border-radius:1rem;opacity:0;pointer-events:none;transition:opacity 0.3s;}
+.whatsapp-float:hover .whatsapp-float-label{opacity:1;}
+@media(max-width:768px){
+  #share > .container > div{grid-template-columns:1fr;}
+  .nav-links li.nav-cta{display:block;}
+}
+
 @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
 
@@ -253,7 +264,7 @@ footer{background:var(--ink);color:rgba(255,255,255,0.7);padding:3rem 5%;text-al
 <!-- NAV -->
 <nav id="topnav">
   <a href="#home" class="nav-logo">
-    <span style="display:block;font-family:'Lato',sans-serif;font-size:0.62rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--forest);">Divination Specialist</span>
+    <span style="display:block;font-family:'Lato',sans-serif;font-size:0.62rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--forest);">Personal Energy Profiling</span>
     <span class="en">Tomoé Seki</span>
   </a>
   <ul class="nav-links" id="navlinks">
@@ -264,6 +275,7 @@ footer{background:var(--ink);color:rgba(255,255,255,0.7);padding:3rem 5%;text-al
     <li><a href="#testimonials">Voices</a></li>
     <li><a href="#faq">FAQ</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li class="nav-cta"><a href="https://forms.gle/xT7rUivZ6DjEXxNn8" target="_blank">Book Now</a></li>
   </ul>
   <button class="nav-toggle" id="navtoggle" aria-label="Menu"><span></span><span></span><span></span></button>
 </nav>
@@ -271,15 +283,15 @@ footer{background:var(--ink);color:rgba(255,255,255,0.7);padding:3rem 5%;text-al
 <!-- HERO -->
 <section id="home">
   <div class="hero-left">
-    <p class="hero-eyebrow">Divination Specialist &nbsp;·&nbsp; Number &amp; Energy Reading — Joho Suimei</p>
-    <p style="font-family:'Noto Serif JP',serif;font-size:0.82rem;color:var(--forest);letter-spacing:0.06em;margin-bottom:1.2rem;opacity:0;animation:fadeUp 0.8s 0.3s forwards;">やまとの智恵 情報推命学 鑑定士</p>
+    <p class="hero-eyebrow">Personal Energy Profiling &nbsp;·&nbsp; Innate Talent &amp; Life Purpose — Joho Suimei</p>
+    <p style="font-family:'Noto Serif JP',serif;font-size:0.82rem;color:var(--forest);letter-spacing:0.06em;margin-bottom:1.2rem;opacity:0;animation:fadeUp 0.8s 0.3s forwards;">やまとの智恵 情報推命学 · 自分深堀り・才能発見・方向性発見</p>
     <h1 class="hero-name-en">Tomoé Seki</h1>
     <p class="hero-name-jp">せきともえ</p>
     <div class="hero-divider"></div>
-    <p class="hero-tagline-en">Discover your true nature.<br>Understand others. Live your own path.</p>
-    <p class="hero-tagline-jp">自分を知り、相手を理解し<br>あなたらしい人生を切り開く。</p>
+    <p class="hero-tagline-en">Uncover your innate talents.<br>Discover your natural blueprint. Live your purpose.</p>
+    <p class="hero-tagline-jp">生まれ持った才能を知り<br>自分らしい方向性を見つける。</p>
     <div class="hero-cta-group">
-      <a href="https://forms.gle/xT7rUivZ6DjEXxNn8" target="_blank" class="btn-primary">🌿 Book a Session · 鑑定を予約する</a>
+      <a href="https://forms.gle/xT7rUivZ6DjEXxNn8" target="_blank" class="btn-primary">🌿 Book a Session · セッションを予約する</a>
       <a href="#about" class="btn-secondary">Learn More · もっと知る</a>
     </div>
   </div>
@@ -290,8 +302,8 @@ footer{background:var(--ink);color:rgba(255,255,255,0.7);padding:3rem 5%;text-al
       </div>
       <div class="hero-card-float">
         <p class="card-label">🌟 Client Voice · お客様の声</p>
-        <p class="card-quote-en">"I was amazed — this is the first reading that helped me understand myself so deeply."</p>
-        <p class="card-quote-jp">「自分についてここまで深く理解できる占いは初めてで驚きました。」</p>
+        <p class="card-quote-en">"I was amazed — this is the first session that helped me understand myself so deeply."</p>
+        <p class="card-quote-jp">「自分についてここまで深く理解できるセッションは初めてで驚きました。」</p>
         <div class="card-meta">
           <div class="card-dot">🇯🇵</div>
           <div>
@@ -322,11 +334,11 @@ footer{background:var(--ink);color:rgba(255,255,255,0.7);padding:3rem 5%;text-al
       <div class="about-body">
         <p class="section-label">About · わたしについて</p>
         <h2 class="section-title-en">Hello, I'm Tomoé Seki</h2>
-        <p style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--forest);margin-bottom:0.3rem;letter-spacing:0.04em;">Number &amp; Energy Reading — Joho Suimei</p>
-        <p style="font-family:'Noto Serif JP',serif;font-size:0.88rem;color:var(--mid);margin-bottom:1.75rem;">やまとの智恵 情報推命学 鑑定士</p>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--forest);margin-bottom:0.3rem;letter-spacing:0.04em;">Personal Energy Profiling — Innate Talent Analysis</p>
+        <p style="font-family:'Noto Serif JP',serif;font-size:0.88rem;color:var(--mid);margin-bottom:1.75rem;">やまとの智恵 情報推命学 · 自分深堀り・才能発見・方向性発見</p>
 
-        <p class="en-text">I am Tomoé Seki, a Divination Specialist in Yamato Wisdom — Number &amp; Energy Reading (Joho Suimei). I currently live in Sevenoaks, Kent (South East London), and offer sessions both online and in person.</p>
-        <p>はじめまして、やまとの智恵 情報推命学 鑑定士のせきともえと申します。現在、イギリス・ロンドン南東部のセブンオークス（Kent）に住みながら、オンラインと対面で鑑定を行っています。</p>
+        <p class="en-text">I am Tomoé Seki, a Personal Energy Profiling specialist using Yamato Wisdom — Joho Suimei. I help people uncover their innate talents, understand their natural blueprint, and discover their true life direction. I currently live in Sevenoaks, Kent (South East London), and offer sessions both online and in person.</p>
+        <p>はじめまして、やまとの智恵 情報推命学のせきともえと申します。数の力を使って、あなたの生まれ持った才能を発掘し、自分らしい方向性を見つけるお手伝いをしています。現在、イギリス・ロンドン南東部のセブンオークス（Kent）に住みながら、オンラインと対面でセッションを行っています。</p>
 
         <div class="about-highlight">
           <p class="en-text" style="font-style:italic;color:var(--forest);">After completing my Master's in African Studies at the University of Edinburgh, I worked for over a decade in international settings — NGOs tackling hunger and environmental issues, JICA research, sustainability and CSR consulting, and M&amp;A advisory in Hong Kong.</p>
@@ -336,20 +348,20 @@ footer{background:var(--ink);color:rgba(255,255,255,0.7);padding:3rem 5%;text-al
         <p class="en-text">My starting point was a visit to Ethiopia at age 20. Moved by people living with dignity and pride despite material hardship, I have spent years asking: what is true richness? How do we live authentically, with pride?</p>
         <p>私の原点は、20歳のときに訪れたエチオピアです。物質的に厳しい環境の中でも、凛として誇り高く生きる人々の姿に深く心を動かされました。あの経験から、「本当の豊かさとは何か」「自分らしく誇りを持って生きるにはどうしたらいいか」をずっと考えてきました。</p>
 
-        <p class="en-text">Living in Hong Kong and the UK, I rediscovered my Japanese identity and a deep curiosity about wisdom traditions. Through tea ceremony and <em>Yamato Shigusa</em> — ancient Japanese wisdom — I found my way to <strong>Number &amp; Energy Reading — Joho Suimei</strong>.</p>
+        <p class="en-text">Living in Hong Kong and the UK, I rediscovered my Japanese identity and a deep curiosity about wisdom traditions. Through tea ceremony and <em>Yamato Shigusa</em> — ancient Japanese wisdom — I found my way to <strong>Personal Energy Profiling — Joho Suimei</strong>.</p>
         <p>香港やイギリスでの生活の中で、茶道や「やまとしぐさ」に出会い、日本の智慧と文化の深さを改めて見つめ直しました。そこから紐解かれるように出会ったのが<strong>やまとの智恵情報推命学</strong>です。</p>
 
-        <p class="en-text">This is a Japanese energy science — not about prediction, but about revealing your true nature and potential, helping you understand yourself and others more deeply, and live your best life.</p>
-        <p>やまとの智恵情報推命学は、日本発祥のエネルギー学で、「当たる・当たらない」ではなく、その人の本来の姿や可能性を映し出し、自分を理解し、相手を理解し、目の前の現実をより良く生きるヒントを与えてくれるものです。</p>
+        <p class="en-text">This is a Japanese energy science — a number-driven reading to uncover your natural blueprint and life purpose. It's not about fortune-telling, but about deeply understanding yourself: your innate talents, your natural strengths, and the direction that is truly yours.</p>
+        <p>やまとの智恵情報推命学は、日本発祥のエネルギー学で、数の力を使ってあなたの本来の才能・特性・生き方の方向性を深く掘り下げます。「当たる・当たらない」ではなく、自分を深く知り、才能を発見し、自分らしい方向性を見つけることに特化しています。</p>
 
-        <p class="en-text">In my own international marriage and parenting journey, this practice helped me see myself clearly — transforming my family relationships and bringing genuine peace and positivity to my daily life.</p>
-        <p>私自身が国際結婚・子育ての中で深く悩んでいたとき、この学問を通じて自分を客観的に理解できたことで、家族関係が大きく改善し、心から穏やかで前向きな毎日を送れるようになりました。</p>
+        <p class="en-text">In my own international marriage and parenting journey, this practice helped me see myself clearly — uncovering my own talents and direction, transforming my family relationships and bringing genuine peace and positivity to my daily life.</p>
+        <p>私自身が国際結婚・子育ての中で深く悩んでいたとき、この学問を通じて自分の才能と方向性を客観的に理解できたことで、家族関係が大きく改善し、心から穏やかで前向きな毎日を送れるようになりました。</p>
 
-        <p class="en-text">I'm here for anyone feeling lost in relationships, anxious about parenting, lonely in overseas life, or searching for their true self. Even if you're unsure whether your concern is "big enough" — you are very welcome here. Let's thoughtfully find your next step together.</p>
-        <p>同じように悩んでいる方のお役に立ちたいと思っています。「こんなことで話してもいいのかな…」と思っている方も大歓迎です。一緒に、あなたらしい人生の次のステップを、丁寧に考えていきましょう。</p>
+        <p class="en-text">I'm here for anyone who wants to dig deeper into who they truly are — whether you're feeling lost in direction, unsure of your strengths, overwhelmed in relationships, or simply curious about your natural blueprint. Even if you're unsure whether your concern is "big enough" — you are very welcome here. Let's thoughtfully find your next step together.</p>
+        <p>自分を深く知りたい、才能を発見したい、自分らしい方向性を見つけたいという方のお役に立ちたいと思っています。「こんなことで話してもいいのかな…」と思っている方も大歓迎です。一緒に、あなたらしい人生の次のステップを、丁寧に考えていきましょう。</p>
 
         <div style="margin-top:2rem;">
-          <a href="https://forms.gle/xT7rUivZ6DjEXxNn8" target="_blank" class="btn-primary">🌿 Book a Session · 鑑定を予約する</a>
+          <a href="https://forms.gle/xT7rUivZ6DjEXxNn8" target="_blank" class="btn-primary">🌿 Book a Session · セッションを予約する</a>
         </div>
       </div>
     </div>
@@ -359,22 +371,22 @@ footer{background:var(--ink);color:rgba(255,255,255,0.7);padding:3rem 5%;text-al
 <!-- SERVICES -->
 <section id="services">
   <div class="container">
-    <p class="section-label">Services · 鑑定について</p>
-    <h2 class="section-title-en">Session Formats<br><span style="font-family:'Lato',sans-serif;font-size:0.7rem;letter-spacing:0.18em;color:var(--forest);font-style:normal;">Number &amp; Energy Reading</span></h2>
-    <p class="section-title-jp">鑑定の方法</p>
+    <p class="section-label">Services · セッションについて</p>
+    <h2 class="section-title-en">Session Formats<br><span style="font-family:'Lato',sans-serif;font-size:0.7rem;letter-spacing:0.18em;color:var(--forest);font-style:normal;">Personal Energy Profiling · Innate Talent Analysis</span></h2>
+    <p class="section-title-jp">セッションの方法</p>
 
     <div class="services-grid">
       <div class="service-card online">
         <div class="service-icon">💻</div>
         <div class="service-title-en">Online Session (Zoom)</div>
-        <div class="service-title-jp">オンライン鑑定</div>
-        <p class="service-desc-en">Available from anywhere in the world. Connect from the comfort of your home via Zoom. No travel needed.</p>
-        <p class="service-desc-jp">自宅からどこでも受けられます。世界中どこからでもご相談いただけます。移動不要で気軽にどうぞ。</p>
+        <div class="service-title-jp">オンラインセッション</div>
+        <p class="service-desc-en">Available from anywhere in the world. Uncover your innate talents and life direction from the comfort of your home via Zoom.</p>
+        <p class="service-desc-jp">自宅からどこでも受けられます。世界中どこからでも才能発見・方向性発見のセッションをお受けいただけます。</p>
       </div>
       <div class="service-card inperson">
         <div class="service-icon">🌿</div>
         <div class="service-title-en">In-Person Session</div>
-        <div class="service-title-jp">対面鑑定</div>
+        <div class="service-title-jp">対面セッション</div>
         <p class="service-desc-en">Available for those near Sevenoaks, Kent. Meet face-to-face for a deeper sense of connection and ease.</p>
         <p class="service-desc-jp">イギリス・セブンオークス（Kent）エリア在住の方対象。直接お会いしてより深い安心感を大切にしたい方へ。</p>
       </div>
@@ -455,9 +467,9 @@ footer{background:var(--ink);color:rgba(255,255,255,0.7);padding:3rem 5%;text-al
 <!-- HOW IT WORKS -->
 <section id="howitworks">
   <div class="container">
-    <p class="section-label">How it Works · 鑑定の流れ</p>
+    <p class="section-label">How it Works · セッションの流れ</p>
     <h2 class="section-title-en">From Booking to Your Session</h2>
-    <p class="section-title-jp">ご予約から鑑定まで</p>
+    <p class="section-title-jp">ご予約からセッションまで</p>
     <ul class="steps-list">
       <li class="step-item">
         <div class="step-num s1">1</div>
@@ -499,18 +511,18 @@ footer{background:var(--ink);color:rgba(255,255,255,0.7);padding:3rem 5%;text-al
         <div class="step-num s5">5</div>
         <div class="step-content">
           <div class="step-title-en">Session Day</div>
-          <div class="step-title-jp">鑑定当日</div>
-          <p class="step-desc-en">We will listen to your concerns and offer practical, personalised insights using Number &amp; Energy Reading — Joho Suimei. Please come as you are — no preparation needed.</p>
-          <p class="step-desc-jp">まずはお悩みを伺い、やまとの智恵 情報推命学で読み解きながら、あなたに合った現実的なヒントをお伝えします。特別な準備は必要ありません。</p>
+          <div class="step-title-jp">セッション当日</div>
+          <p class="step-desc-en">We will explore your natural blueprint and innate talents using Personal Energy Profiling — Joho Suimei. Together we'll uncover your strengths and discover the direction that is truly yours. No preparation needed.</p>
+          <p class="step-desc-jp">やまとの智恵 情報推命学を使い、あなたの生まれ持った才能・特性・方向性を一緒に深く掘り下げます。特別な準備は必要ありません。</p>
         </div>
       </li>
       <li class="step-item">
         <div class="step-num s6">6</div>
         <div class="step-content">
           <div class="step-title-en">After the Session</div>
-          <div class="step-title-jp">鑑定後</div>
+          <div class="step-title-jp">セッション後</div>
           <p class="step-desc-en">Feel free to revisit your insights at any time — and whenever you need a new perspective, I am always here for your next session.</p>
-          <p class="step-desc-jp">鑑定で得たヒントをぜひ日常の中で活かしてみてください。また新たな視点が必要になったとき、いつでもご相談いただけます。</p>
+          <p class="step-desc-jp">セッションで得たヒントをぜひ日常の中で活かしてみてください。また新たな視点が必要になったとき、いつでもご相談いただけます。</p>
         </div>
       </li>
     </ul>
@@ -528,26 +540,58 @@ footer{background:var(--ink);color:rgba(255,255,255,0.7);padding:3rem 5%;text-al
         <div class="stars">★★★★★</div>
         <p class="testimonial-text-en">"I was amazed — this is the first reading that helped me understand myself so deeply."</p>
         <p class="testimonial-text-jp">「自分についてここまで深く理解できる占いは初めてで驚きました。」</p>
-        <div class="testimonial-meta">Japan-based · Japanese · 日本在住 日本人</div>
+        <div class="testimonial-meta">Japan-based · 日本在住</div>
       </div>
       <div class="testimonial-card">
         <div class="stars">★★★★★</div>
         <p class="testimonial-text-en">"I'm so glad I had a session. I really understood myself. I'd love to come back regularly."</p>
         <p class="testimonial-text-jp">「受けて良かった。自分のことが良く分かった。定期的にお願いしたい。」</p>
-        <div class="testimonial-meta">UK-based · Japanese · イギリス在住 日本人</div>
+        <div class="testimonial-meta">UK-based · イギリス在住</div>
       </div>
       <div class="testimonial-card">
         <div class="stars">★★★★★</div>
         <p class="testimonial-text-en">"I was struggling with work and the future, but learning about my talents completely changed my perspective."</p>
         <p class="testimonial-text-jp">「仕事や将来に悩んでいましたが、自分の才能を知り、視点が変わりました。」</p>
-        <div class="testimonial-meta">UK-based · British · 30s · イギリス在住 イギリス人 30代</div>
+        <div class="testimonial-meta">UK-based · 30s · イギリス在住 30代</div>
       </div>
       <div class="testimonial-card">
         <div class="stars">★★★★★</div>
         <p class="testimonial-text-en">"Being able to talk about my parenting frustrations made my heart feel so much lighter."</p>
         <p class="testimonial-text-jp">「子育てのイライラについて話せて、心が軽くなりました。」</p>
-        <div class="testimonial-meta">UK-based · British · 40s · イギリス在住 イギリス人 40代</div>
+        <div class="testimonial-meta">UK-based · 40s · イギリス在住 40代</div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- SHARE & REVIEW -->
+<section id="share" style="background:linear-gradient(160deg,var(--sage) 0%,var(--sky) 100%);padding:60px 0;">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:stretch;">
+
+      <!-- Share card -->
+      <div style="background:white;border-radius:1.25rem;padding:2rem;box-shadow:0 4px 24px rgba(58,53,48,0.08);display:flex;flex-direction:column;gap:1rem;">
+        <div style="font-size:1.6rem;">🌿</div>
+        <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:400;color:var(--ink);">Enjoyed your session?<br><span style="font-family:'Noto Serif JP',serif;font-size:0.95rem;font-style:normal;color:var(--soft);">セッションはいかがでしたか？</span></h3>
+        <p style="font-size:0.9rem;line-height:1.85;color:var(--soft);">Your word of mouth means the world. If this reading brought you clarity, please share it with a friend who might need it too.</p>
+        <p style="font-family:'Noto Serif JP',serif;font-size:0.82rem;line-height:1.9;color:var(--mid);">口コミがとても大きな力になります。セッションが良かったと感じたら、ぜひお友達にも教えてあげてください。</p>
+        <div style="display:flex;flex-wrap:wrap;gap:0.6rem;margin-top:0.5rem;">
+          <a href="https://wa.me/?text=I%20had%20a%20Personal%20Energy%20Profiling%20session%20with%20Tomoé%20Seki%20—%20it%20helped%20me%20uncover%20my%20innate%20talents%20and%20life%20direction.%20Highly%20recommend%3A%20https://read.your.energy" target="_blank" style="display:inline-flex;align-items:center;gap:0.4rem;background:#25D366;color:white;text-decoration:none;font-family:'Lato',sans-serif;font-size:0.8rem;font-weight:400;letter-spacing:0.06em;padding:0.55rem 1.1rem;border-radius:2rem;transition:all 0.3s;">💬 Share on WhatsApp</a>
+          <a href="https://www.instagram.com/read.your.energy" target="_blank" style="display:inline-flex;align-items:center;gap:0.4rem;background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);color:white;text-decoration:none;font-family:'Lato',sans-serif;font-size:0.8rem;font-weight:400;letter-spacing:0.06em;padding:0.55rem 1.1rem;border-radius:2rem;transition:all 0.3s;">📷 Instagram</a>
+        </div>
+      </div>
+
+      <!-- Review card -->
+      <div style="background:white;border-radius:1.25rem;padding:2rem;box-shadow:0 4px 24px rgba(58,53,48,0.08);display:flex;flex-direction:column;gap:1rem;">
+        <div style="font-size:1.6rem;">⭐</div>
+        <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:400;color:var(--ink);">Leave a Review<br><span style="font-family:'Noto Serif JP',serif;font-size:0.95rem;font-style:normal;color:var(--soft);">レビューを書く</span></h3>
+        <p style="font-size:0.9rem;line-height:1.85;color:var(--soft);">Reviews help others find this practice. Even a few words make a real difference — thank you so much.</p>
+        <p style="font-family:'Noto Serif JP',serif;font-size:0.82rem;line-height:1.9;color:var(--mid);">レビューを書いていただくと、同じように悩む方への大きな助けになります。どうぞよろしくお願いします。</p>
+        <div style="display:flex;flex-wrap:wrap;gap:0.6rem;margin-top:0.5rem;">
+          <a href="https://g.page/r/CY3v1DC1-jCUEBM/review" target="_blank" style="display:inline-flex;align-items:center;gap:0.4rem;background:var(--forest);color:white;text-decoration:none;font-family:'Lato',sans-serif;font-size:0.8rem;font-weight:400;letter-spacing:0.06em;padding:0.55rem 1.1rem;border-radius:2rem;transition:all 0.3s;">⭐ Google Review</a>
+        </div>
+        
+
     </div>
   </div>
 </section>
@@ -563,13 +607,14 @@ footer{background:var(--ink);color:rgba(255,255,255,0.7);padding:3rem 5%;text-al
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">
           <div class="faq-q-texts">
-            <span class="faq-q-text-en">Q. Does it really "predict" the future?</span>
-            <span class="faq-q-text-jp">Q. 占いは本当に当たりますか？</span>
+            <span class="faq-q-text-en">Q. Is this about predicting the future?</span>
+            <span class="faq-q-text-jp">Q. 未来を占うものですか？</span>
           </div>
           <span class="faq-arrow">+</span>
         </button>
         <div class="faq-a">
-          <span class="en">It's not about prediction — it reveals your true nature and potential, helping you understand yourself and others, and live your best life. Many clients say their mind became clearer and they felt more positive.</span>
+          <span class="en">Not at all. Personal Energy Profiling is a number-driven reading to uncover your natural blueprint and life purpose — not fortune-telling. It helps you deeply understand your innate talents, natural strengths, and the direction that is truly yours. Many clients say they felt a profound sense of clarity about who they really are.</span>
+          <span class="jp">「当たる・当たらない」ではありません。数の力を使ってあなたの本来の才能・特性・方向性を深く掘り下げるセッションです。「こんな才能があったんだ」「これが自分らしい方向性なんだ」と深く腑に落ちる体験をされる方がたくさんいらっしゃいます。</span>
           <span class="jp">「当たる・当たらない」ではなく、その人の本来の姿や可能性を映し出し、自分を理解し、相手を理解し、目の前の現実をより良く生きるヒントをお伝えするものです。多くのクライアントさんが「心が整理されて前向きになれた」とおっしゃっています。</span>
         </div>
       </div>
@@ -643,11 +688,11 @@ footer{background:var(--ink);color:rgba(255,255,255,0.7);padding:3rem 5%;text-al
       </button>
       <div class="policy-body" id="policyBody">
         <span class="en">The following cancellation policy applies to all bookings. Please review before reserving.</span>
-        <span class="jp">当方の鑑定予約に関するキャンセルにつきましては、以下のポリシーを適用させていただきます。ご予約の際には、あらかじめご確認いただきますようお願い申し上げます。</span>
+        <span class="jp">当方のセッション予約に関するキャンセルにつきましては、以下のポリシーを適用させていただきます。ご予約の際には、あらかじめご確認いただきますようお願い申し上げます。</span>
         <ul>
-          <li><strong>Up to 48 hours before / 鑑定日の48時間前まで：</strong> No cancellation fee · キャンセル料はいただきません（無料）</li>
-          <li><strong>Within 48 hours / 鑑定日の48時間以内：</strong> 50% cancellation fee · 鑑定料金の50%をいただきます</li>
-          <li><strong>Same-day or no-show / 当日キャンセル・無断：</strong> 100% fee · 鑑定料金の100%を申し受けます</li>
+          <li><strong>Up to 48 hours before / セッション日の48時間前まで：</strong> No cancellation fee · キャンセル料はいただきません（無料）</li>
+          <li><strong>Within 48 hours / セッション日の48時間以内：</strong> 50% cancellation fee · セッション料金の50%をいただきます</li>
+          <li><strong>Same-day or no-show / 当日キャンセル・無断：</strong> 100% fee · セッション料金の100%を申し受けます</li>
         </ul>
         <div class="policy-note">
           <strong>Note · 注意：</strong> In unavoidable circumstances (illness, natural disaster, etc.), please don't hesitate to get in touch — we will respond flexibly. / 天災やご自身の体調不良など、やむを得ない事情の場合は柔軟に対応いたしますので、お気軽にご相談ください。
@@ -665,13 +710,14 @@ footer{background:var(--ink);color:rgba(255,255,255,0.7);padding:3rem 5%;text-al
     <p class="section-title-jp">お気軽にご連絡ください</p>
     <div class="contact-grid">
       <div>
-        <p style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;font-style:italic;line-height:1.9;color:var(--ink);margin-bottom:0.5rem;">Even if you're unsure whether your concern is "big enough" — you are very welcome here.</p>
-        <p style="font-family:'Noto Serif JP',serif;font-size:0.88rem;line-height:1.95;color:var(--soft);margin-bottom:2rem;">「こんなことで話してもいいのかな…」と思っている方も大歓迎です。<br>一緒に、あなたらしい人生の次のステップを、丁寧に考えていきましょう。</p>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;font-style:italic;line-height:1.9;color:var(--ink);margin-bottom:0.5rem;">Even if you're unsure whether your question is "big enough" — you are very welcome here.</p>
+        <p style="font-family:'Noto Serif JP',serif;font-size:0.88rem;line-height:1.95;color:var(--soft);margin-bottom:2rem;">「こんなことで話してもいいのかな…」と思っている方も大歓迎です。<br>一緒に、あなたの才能と方向性を、丁寧に掘り下げていきましょう。</p>
         <div class="contact-item">
-          <div class="contact-icon">✉️</div>
+          <div class="contact-icon">💬</div>
           <div>
-            <div class="contact-label">Email</div>
-            <a href="mailto:info.tomoe.seki@gmail.com" class="contact-link">info.tomoe.seki@gmail.com</a>
+            <div class="contact-label">WhatsApp</div>
+            <a href="https://wa.me/447564784536" target="_blank" class="contact-link">Message on WhatsApp</a>
+            <div class="contact-sub">Quick questions welcome · お気軽にどうぞ</div>
           </div>
         </div>
         <div class="contact-item">
@@ -682,15 +728,22 @@ footer{background:var(--ink);color:rgba(255,255,255,0.7);padding:3rem 5%;text-al
           </div>
         </div>
         <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <div class="contact-label">Email</div>
+            <a href="mailto:info.tomoe.seki@gmail.com" class="contact-link">info.tomoe.seki@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
           <div class="contact-icon">📍</div>
           <div>
             <div class="contact-label">Location</div>
-            <div class="contact-text">Sevenoaks, Kent, UK</div>
-            
+            <div class="contact-text"><a href="https://share.google/rgddhb8PCUnN6Y0px" target="_blank" class="contact-link">Sevenoaks, Kent, UK</a></div>
           </div>
         </div>
-        <div style="margin-top:1.5rem;">
-          <a href="https://forms.gle/xT7rUivZ6DjEXxNn8" target="_blank" class="btn-primary">🌿 Book Now · 予約はこちら</a>
+        <div style="margin-top:1.5rem;display:flex;flex-direction:column;gap:0.7rem;">
+          <a href="https://forms.gle/xT7rUivZ6DjEXxNn8" target="_blank" class="btn-primary">🌿 Book a Session · セッションを予約する</a>
+          <a href="https://wa.me/447564784536" target="_blank" style="display:inline-flex;align-items:center;gap:0.5rem;background:#25D366;color:white;text-decoration:none;font-family:'Lato',sans-serif;font-size:0.82rem;font-weight:400;letter-spacing:0.1em;text-transform:uppercase;padding:0.9rem 1.8rem;border-radius:2rem;transition:all 0.3s;width:fit-content;">💬 WhatsApp · ワッツアップ</a>
         </div>
       </div>
       <div class="contact-form-card">
@@ -743,11 +796,17 @@ footer{background:var(--ink);color:rgba(255,255,255,0.7);padding:3rem 5%;text-al
   </div>
 </section>
 
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/447564784536" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+  <span class="whatsapp-float-label">Chat on WhatsApp</span>
+  💬
+</a>
+
 <!-- FOOTER -->
 <footer>
   <div class="footer-logo">Tomoé Seki</div>
-  <div class="footer-sub-en">Divination Specialist · Number &amp; Energy Reading — Joho Suimei</div>
-  <div class="footer-sub-jp">やまとの智恵 情報推命学 鑑定士 · Sevenoaks, Kent, UK</div>
+  <div class="footer-sub-en">Personal Energy Profiling · Innate Talent Analysis — Joho Suimei</div>
+  <div class="footer-sub-jp">やまとの智恵 情報推命学 · 自分深堀り・才能発見・方向性発見 · Sevenoaks, Kent, UK</div>
   <ul class="footer-links">
     <li><a href="#home">Home</a></li>
     <li><a href="#about">About</a></li>
@@ -759,6 +818,7 @@ footer{background:var(--ink);color:rgba(255,255,255,0.7);padding:3rem 5%;text-al
   </ul>
   <div class="footer-contact">
     <a href="mailto:info.tomoe.seki@gmail.com">✉️ info.tomoe.seki@gmail.com</a>
+    <a href="https://wa.me/447564784536" target="_blank">💬 WhatsApp</a>
     <a href="https://instagram.com/read.your.energy" target="_blank">📷 @read.your.energy</a>
     <a href="https://forms.gle/xT7rUivZ6DjEXxNn8" target="_blank">🌿 Book a Session</a>
   </div>
